@@ -1,0 +1,84 @@
+/* Selector{
+    Property: Value
+} */
+
+
+/*
+Star simbolize all elements
+Cascading: Specificity
+Ids apply only ONCE - #id
+Class : .className
+Inline styles everytime win out
+ */
+
+* {
+text-align: left;
+}
+
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+    cursor: pointer;
+}
+
+/* All h2 and p */
+
+h2, h1 {
+    color: #2D882D;
+    text-align: left;
+    border: 1px solid rgba(207, 216, 207, 0.5);
+}
+
+
+/* All p inside h2 */
+h2 p {
+    color: #6ead6e;
+    text-align: left;
+}
+
+/* All p that have parent h2 */
+h2 > p:hover {
+    color: #6eabad;
+    text-align: left;
+    background-color: rgba(0, 216, 207, 0.2); ;
+}
+
+/* Any p element that is exactly after h2 */
+h2 + p {
+    color: #ad996e;
+    text-align: left;
+    font-size: 32px;
+    border: 1px solid rgba(207, 216, 207, 0.5);
+}
+/* !important override every rule, but not recommended */
+p {
+    color: black !important
+}
+
+p {
+    color: pink
+}
+
+li {
+    list-style: none;
+    display:inline-block;
+}
+/* Only for last child and for first child is .webtext:first-child */
+.webtext:last-child  {
+    border: 5px dashed #639672;
+    opacity: 0.5;
+}
+
+.active {
+    color:red
+}
+
+#div1 {
+    background-color: rgba(177, 202, 202, 0.2)
+}
+
+#div2 {
+    background-color: rgba(66, 177, 66, 0.2)
+}
+
+
