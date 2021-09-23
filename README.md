@@ -11,3 +11,4 @@
    - small template in which I learned the basic layout for a page
    - made with CSS grid and flex
  - JavaScript
+ - DOM - Document Object Model
