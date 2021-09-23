@@ -34,8 +34,12 @@ console.log(3 !== 3); // false
 // Used when nothing is assigned to the variable
 
 // 5. Null
+// Null means there are nothing into an object
+
 // <!-- 6. Symbol (new in ECMAScript 6) -->
+
 // 7. Object
+// Collections of property
 
 // JAVASCRIPT COMPARISONS
 // -----------------

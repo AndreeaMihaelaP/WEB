@@ -10,3 +10,4 @@
  - Layout: https://andreeamihaelap.github.io/Web-developer/CSS-grid-and-layout/Layout-template/#
    - small template in which I learned the basic layout for a page
    - made with CSS grid and flex
+ - JavaScript

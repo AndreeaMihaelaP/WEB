@@ -21,3 +21,8 @@ console.log(b); // undefined
 
 // <!-- let (new in ECMAScript 6)-->
 // <!-- const (new in ECMAScript 6)-->
+
+// Expression is something that produce a value
+1 + 3;
+var a = 2;
+return true;

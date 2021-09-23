@@ -1,23 +1,3 @@
-// JAVASCRIPT CONDITIONALS
-// -----------------
-// if
-// else
-// else if
-// <!-- ternary operator -->
-// <!-- switch -->
-
-// JAVASCRIPT DATA STRUCTURES
-// -----------------
-// Array
-// Object
-
-// JAVASCRIPT LOOPING
-// -----------------
-// for
-// while
-// do
-// forEach (new in ECMAScript 5)
-
 // JAVASCRIPT KEYWORDS
 // -----------------
 // break
