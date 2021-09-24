@@ -21,3 +21,8 @@
 .done {
     text-decoration: line-through;
 }
+
+#delete, li {
+    display:inline-block;
+    margin: 5px
+}
