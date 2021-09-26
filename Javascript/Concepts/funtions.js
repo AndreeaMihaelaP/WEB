@@ -66,3 +66,10 @@ alert(multiply(12, 13));
 multiply1(15, 20);
 
 // 4. <!-- () => (new in ECMAScript 6) -->
+// arrow function
+
+const add = (a, b) => a + b;
+
+const add1 = (a, b) => {
+  return a + b;
+};

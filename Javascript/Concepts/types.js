@@ -37,6 +37,13 @@ console.log(3 !== 3); // false
 // Null means there are nothing into an object
 
 // <!-- 6. Symbol (new in ECMAScript 6) -->
+var sym1 = Symbol();
+var sym2 = Symbol("foo");
+var sym3 = Symbol("foo");
+
+// unique type
+
+sym2 === sym3;
 
 // 7. Object
 // Collections of property
