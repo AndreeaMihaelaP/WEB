@@ -1,0 +1,10 @@
+A program in js is run by an engine for example V8 from Google Chrome.
+The engine has memory heap and call stack.
+Everything, like a new variable, is stored in memory heap. Unused things in memory heap are called memory leak.
+Call stack read and execute the code.
+
+JS is a single threaded language(only one call stack where you can execute one statement at a time)
+which can be non blocking(asynchronous like setTimeout) 
+-> for this we need a runtime javascript environment which has Web apis, callback queue and event loop
+Event loop check if the call stack is empty
+In call stack the principle is first in - last out

@@ -1,0 +1,21 @@
+- Inline scripts
+If they become big then is a problem called the lacked of code reusability
+Population of global name spaces mean the window object with the same name of variabiles/ functions
+
+- Script Tags
+Copy multiple script file for multiple files 
+Lack of depecndency resolution - script added in proper order
+Population of global name spaces - from all the files
+
+- IIFE (Immediatelly Involved Function Expressions)
+Wraps a function in brackets so that js says that I need to read and evaluate this 
+and then run the function
+Fixed the problem of global name space by adding a new scope,
+but there is still the problem with the files order
+
+- Browserify
+It is a module bundler - run everithing into a single file before we put the website online
+Use CommonJS like module.exports and require
+
+- ES6 and Webpack(module bundler)
+export/import
