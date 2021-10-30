@@ -17,3 +17,4 @@
    -  Background Generator: https://andreeamihaelap.github.io/Web-developer/DOM/Exercises/Background-generator/#
      - exercise made with HTML, CSS and JavaScript
      - line-gradient CSS property made all the magic
+  - React
