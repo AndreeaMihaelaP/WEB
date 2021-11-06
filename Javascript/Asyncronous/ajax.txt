@@ -1,0 +1,4 @@
+AJAX 
+- Update the page without reload the page
+- XMLHttpRequest - fetch - fetch come with response.json() instead JSON.parse()
+- Single Page Application - parts of the web loading

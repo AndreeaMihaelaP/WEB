@@ -1,0 +1,16 @@
+HTTP protocol
+- allow fetching data on thw web
+- the web(client) send a request - server - send the response
+
+MAKE REQUEST WITH: 
+-GET
+-POST
+-PUT
+-DELETE
+
+SERVER RESPONSE:
+- A status code
+
+HTTPS
+- secure protocol
+- only client and server know the secret key

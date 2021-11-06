@@ -1,0 +1,10 @@
+JSON 
+- JavaScript Object Notation
+- a syntax for storing and exchanging data
+- is text, written with JavaScript object Notation
+- can be read by any language
+- JSON.parse - transform data in an object
+- JSON.stringify(obj) - create JSON from obj
+
+
+Another way is XML.
