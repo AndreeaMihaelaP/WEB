@@ -45,3 +45,11 @@ let andi_pokemon = {
 
 let power = andi_pokemon?.raichu?.power || "no power"; // check if it's thruthy
 // ?? check if its null or undefined and return the right operator
+
+// AllSettled
+const promiseOne = new Promise((resolve, reject) => setTimeout(resolve, 3000));
+const promiseTwo = new Promise((resolve, reject) => setTimeout(reject, 3000));
+
+Promise.allSettled([promiseOne, promiseTwo])
+  .then((data) => console.log(data))
+  .catch((e) => console.log(e));
