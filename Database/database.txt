@@ -1,0 +1,2 @@
+SQL - relational database
+NoSQL, MongoDB - non relational database
