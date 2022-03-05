@@ -1,2 +1,2 @@
 console.log("GlobalThis -->", globalThis);
-// Exits part of the window and node
+// Exist as part of the window and node

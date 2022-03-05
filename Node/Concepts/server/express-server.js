@@ -8,10 +8,17 @@ const app = express();
 //   next();
 // });
 
+app.use(express.static(__dirname + "/public"));
+
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 app.get("/", (req, res) => {
+  // console.log(req.query)
+  // req.body
+  // req.header
+  // req.params
+  res.status(404).send("not found");
   res.send("getting root");
 });
 

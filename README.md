@@ -18,4 +18,5 @@
     - exercise made with HTML, CSS and JavaScript
     - line-gradient CSS property made all the magic
   - Node 
+  - PostgreSQL
  

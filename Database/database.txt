@@ -1,2 +1,37 @@
 SQL - relational database
 NoSQL, MongoDB - non relational database
+
+- createdb -U postgres test - create a database
+- psql -U postgres test - enter in database
+- example to create a table
+CREATE TABLE users(id SERIAL PRIMARY KEY, name VARCHAR(255), email VARCHAR(255)); 
+- \dt - see the table
+- insert a new row
+INSERT into users (name, email) VALUES ('john','john@gmail.com');
+SELECT * FROM users; - see everything from the table
+- change the table
+ALTER TABLE users ADD score smallint;
+UPDATE users SET score = 50 WHERE name='Andrei'
+- select all users with name starting with 'A'
+SELECT * FROM users WHERE name LIKE 'A%'
+- everything sorted
+SELECT * FROM users ORDER BY score DESC;
+- average score of the users
+SELECT AVG(SCORE) FROM users;
+- sum
+SELECT SUM(SCORE) FROM users;
+
+Joining tables
+CREATE TABLE login (
+    ID serial NOT NULL PRIMARY KEY,
+    secret VARCHAR (100) NOT NULL,
+    name text UNIQUE NOT NULL
+);
+INSERT INTO login (secret, name) VALUES('abc', 'Andrei);
+
+SELECT * FROM users JOIN login ON users.name = login.name;
+
+- delete a table/column
+- DELETE FROM users WHERE name="Sally";
+- DROP TABLE login;
+ 
