@@ -1,0 +1,31 @@
+Problem: 
+- Every browser implements it's own JS
+- Web apps started to get bigger
+- SPA loads the app once
+- Angular js - organizing big code in small components
+- We need good architecture and how the data flows
+
+
+Solution:
+- Don't touch the DOM(Document object model). I'll do it.
+    - Imperative - directly change different parts of the app
+    - Declarative  - React based on an object knows exactly what to change
+- Reuseable components, small components like lego blocks
+- Unidirectional data flow - One way data flow
+    - State = data of our app
+    - Components = blocks of code built with JSX
+    - JSX = HTML inside JS
+    - React will create a VirtualDOM that creates a JS version of the DOM
+    - React update de DOM with the VirtualDOM
+    - Props (proprieties of components) = if a state changes the DOM will be changed from that node through its children
+- UI, the rest is up to you
+    - can be used across platforms
+
+Principles of a React Developer
+- Decide on Components
+    - How to break down the app into components
+- Decide the State and where it lives
+    - The State can lived in different locations
+- What changes should I make when state changes
+    - What to re-render, deciding on this will have huge impacts on performance
+    
