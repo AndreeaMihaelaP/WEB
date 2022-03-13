@@ -29,3 +29,22 @@ Principles of a React Developer
 - What changes should I make when state changes
     - What to re-render, deciding on this will have huge impacts on performance
     
+DOM vs. Virtual DOM
+- DOM 
+    - A tree of elements
+    - Top level app and everything else are children
+    - Really computational expensive to make changes (re-flow)
+- Virtual DOM
+    - React duplicate the DOM 
+    - JS representation of the real DOM
+    - React make a Virtual DOM copy 
+    - Smart enough to know what to repaint
+    - Compare Virtual DOM copy with Virtual DOM Snapshot
+    - Virtual DOM Snapshot update the real DOM
+
+React vs. ReactDOM
+- ReactDOM takes React code and render it on DOM
+
+Classes vs. Hooks
+- Hooks are specific to React
+- Classes specific JS
