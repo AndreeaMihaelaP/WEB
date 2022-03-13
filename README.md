@@ -19,5 +19,5 @@
     - line-gradient CSS property made all the magic
   - Node 
   - PostgreSQL
-  - React
+   - React
  

@@ -39,3 +39,14 @@ function b() {
 // functional purity -> always return something
 // it's called deterministic
 // whatever it is parameters it always returns the same thing
+
+// Pure functions
+const pureFunctions = (a, b) => {
+  return a + b;
+};
+
+// Impure functions - rely on an external value
+let c = 3; // c may change without function knowing
+const funcA = (a, b) => {
+  return a + b + c;
+};
